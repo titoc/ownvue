@@ -1,13 +1,13 @@
 <template>
-  <div>
-    <h3>Resume</h3>
-    <WorkExperiences />
+  <div class="row">
+    <div class="col">
+      <WorkExperiences />
+    </div>
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
-
 import WorkExperiences from "@/components/WorkExperiences.vue"; // @ is an alias to /src
 
 @Component({
@@ -15,5 +15,5 @@ import WorkExperiences from "@/components/WorkExperiences.vue"; // @ is an alias
     WorkExperiences
   }
 })
-export default class Resume extends Vue {}
+export default class Resume extends Vue { }
 </script>
