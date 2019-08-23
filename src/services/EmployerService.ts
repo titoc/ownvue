@@ -1,5 +1,4 @@
 import Employer from "../models/Employer";
-import countries from "../assets/countries.json";
 import workexperiences from "../assets/workexperiences.json";
 
 export default class EmployerService {
@@ -7,12 +6,21 @@ export default class EmployerService {
   constructor() {
     for (let work of workexperiences) {
       this.employers.push(
-        new Employer(work.id, work.employername, work.designation)
+        new Employer(
+          work.id,
+          work.employername,
+          work.designation,
+          work.logo,
+          work.companylink,
+          work.from,
+          work.to,
+          work.skills,
+          work.activities
+        )
       );
     }
   }
   getWorkExperiences() {
-    console.dir(this.employers);
     return this.employers;
   }
 }

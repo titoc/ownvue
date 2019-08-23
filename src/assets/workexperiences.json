@@ -1,4 +1,48 @@
 [
-  { "id": "1", "designation": "SSE", "employername": "IBS" },
-  { "id": "2", "designation": "Engineer 1", "employername": "AMEX" }
+  {
+    "id": "1",
+    "logo": "ibslogo.png",
+    "companylink": "www.ibs.com",
+    "designation": "SSE",
+    "employername": "IBS",
+    "from": {
+      "year": "2006",
+      "month": "10"
+    },
+    "to": {
+      "year": "2009",
+      "month": "10"
+    },
+    "activities": [
+      { "id": "1", "activity": "fixed bugs" },
+      { "id": "2", "activity": "developed module" }
+    ],
+    "skills": ["java", "xml"]
+  },
+  {
+    "id": "2",
+    "logo": "ibslogo.png",
+    "companylink": "www.amex.com",
+    "designation": "Engineer I",
+    "employername": "American Express",
+    "from": {
+      "year": "2015",
+      "month": "10"
+    },
+    "to": {
+      "year": "2016",
+      "month": "10"
+    },
+    "activities": [
+      {
+        "id": "1",
+        "activity": "release activities"
+      },
+      {
+        "id": "2",
+        "activity": "Thanksgiving promos"
+      }
+    ],
+    "skills": ["java", "jsp"]
+  }
 ]

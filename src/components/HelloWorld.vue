@@ -4,7 +4,9 @@
     <b-alert show>Default Alert</b-alert>
     <button @click="increment()">INCREMENT</button>
     <b-list-group>
-      <b-list-group-item href="http://apple.com">iPhone<b-badge>5</b-badge>
+      <b-list-group-item href="http://apple.com">
+        iPhone
+        <b-badge>5</b-badge>
       </b-list-group-item>
       <b-list-group-item>OnePlus 3T</b-list-group-item>
       <b-list-group-item>Samsung Galaxy 8</b-list-group-item>
@@ -20,15 +22,15 @@ import Employer from "../models/Employer";
 export default class HelloWorld extends Vue {
   @Prop() private msg!: string;
   @Prop() private work!: Employer;
-  count = 0
+  count = 0;
   constructor() {
     super();
-    let work = new Employer("1", "IBS", "SSE");
-    console.dir(work);
+    // let work = new Employer("1", "IBS", "SSE");
+    // onsole.dir(work);
   }
-  increment() { this.count++ }
-
-
+  increment() {
+    this.count++;
+  }
 }
 </script>
 
