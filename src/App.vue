@@ -2,13 +2,13 @@
   <div id="app" class="container-fluid">
     <div class="row">
       <div class="col">
-        <b-navbar toggleable="lg" type="dark" variant="info">
+        <b-navbar toggleable="lg" type="light" variant="success">
           <b-navbar-brand href="#">
             <b-img
-              left
+              class="d-inline-block align-top"
               rounded="circle"
               v-bind="mainProps"
-              src="https://picsum.photos/250/250/?image=54"
+              :src="require('./assets/images/titoc.jpg')"
               alt="Circle image"
             />
           </b-navbar-brand>
@@ -23,11 +23,6 @@
             </b-navbar-nav>
           </b-collapse>
         </b-navbar>
-
-        <!-- <router-link to="/resume">Resume</router-link>|
-        <router-link to="/sideprojects">Side Projects</router-link>|
-        <router-link to="/about">About</router-link>|
-        <router-link to="/contact">Contact</router-link>|-->
       </div>
     </div>
     <div class="row">

@@ -2,9 +2,9 @@
   {
     "id": "1",
     "logo": "IBS_Software_Logo.svg",
-    "companylink": "www.ibs.com",
-    "designation": "SSE",
-    "employername": "IBS",
+    "companylink": "www.3ce.com",
+    "designation": "Senior Java Developer",
+    "employername": "3CE Technologies Inc.",
     "from": {
       "year": "2006",
       "month": "10"
@@ -14,14 +14,52 @@
       "month": "10"
     },
     "activities": [
-      { "id": "1", "activity": "fixed bugs" },
-      { "id": "2", "activity": "developed module" }
+      {
+        "id": "1",
+        "activity": "Building, deploying & maintaining Java microservices in Docker containers."
+      },
+      {
+        "id": "2",
+        "activity": "Build REST API secured by Spring Security OAuth with claims in JSON Web Tokens."
+      },
+      {
+        "id": "2",
+        "activity": "XML stream parsing and data extraction. "
+      },
+      {
+        "id": "2",
+        "activity": "Writes bash scripts for various automation tasks. "
+      },
+      {
+        "id": "2",
+        "activity": "Monitors & takes corrective action on production servers. "
+      },
+      {
+        "id": "2",
+        "activity": " Build internal tools with Vue.Js"
+      },
+      {
+        "id": "4",
+        "activity": "Standardized the structure of all systems – about thirty – to enforce best practices and industry standards (Maven 3, Nexus, Jenkins, releases vs snapshots...)"
+      }
     ],
-    "skills": ["java", "xml"]
+    "skills": [
+      "Java",
+      "XML",
+      "Spring",
+      "SpringBoot",
+      "VueJS",
+      "JSON",
+      "SpringData",
+      "SpringSecurity",
+      "OAUTH",
+      "Kafka",
+      "ElasticSearch"
+    ]
   },
   {
     "id": "2",
-    "logo": "ibslogo.png",
+    "logo": "logo.png",
     "companylink": "www.amex.com",
     "designation": "Engineer I",
     "employername": "American Express",
@@ -45,11 +83,90 @@
     ],
     "skills": ["java", "jsp"]
   },
+
+  {
+    "id": "4",
+    "logo": "logo.png",
+    "companylink": "www.xm.com",
+    "designation": "Consultant",
+    "employername": "Sprint",
+    "from": {
+      "year": "2015",
+      "month": "10"
+    },
+    "to": {
+      "year": "2016",
+      "month": "10"
+    },
+    "activities": [
+      {
+        "id": "1",
+        "activity": "release activities"
+      },
+      {
+        "id": "2",
+        "activity": "Thanksgiving promos"
+      }
+    ],
+    "skills": ["java", "jsp"]
+  },
   {
     "id": "3",
-    "logo": "ibslogo.png",
+    "logo": "logo.png",
     "companylink": "www.xm.com",
-    "designation": "Engineer I",
+    "designation": "Assistant Consultant",
+    "employername": "Tata Consultancy Services",
+    "from": {
+      "year": "2015",
+      "month": "10"
+    },
+    "to": {
+      "year": "2016",
+      "month": "10"
+    },
+    "activities": [
+      {
+        "id": "1",
+        "activity": "release activities"
+      },
+      {
+        "id": "2",
+        "activity": "Thanksgiving promos"
+      }
+    ],
+    "skills": ["java", "jsp"]
+  },
+  {
+    "id": "3",
+    "logo": "logo.png",
+    "companylink": "www.xm.com",
+    "designation": "Assistant Consultant",
+    "employername": "Pearl Data Direct",
+    "from": {
+      "year": "2015",
+      "month": "10"
+    },
+    "to": {
+      "year": "2016",
+      "month": "10"
+    },
+    "activities": [
+      {
+        "id": "1",
+        "activity": "release activities"
+      },
+      {
+        "id": "2",
+        "activity": "Thanksgiving promos"
+      }
+    ],
+    "skills": ["java", "jsp"]
+  },
+  {
+    "id": "3",
+    "logo": "logo.png",
+    "companylink": "www.xm.com",
+    "designation": "Software Engineer",
     "employername": "XM Software",
     "from": {
       "year": "2015",
@@ -72,29 +189,29 @@
     "skills": ["java", "jsp"]
   },
   {
-    "id": "4",
-    "logo": "ibslogo.png",
-    "companylink": "www.xm.com",
-    "designation": "ASE",
-    "employername": "TCS",
+    "id": "1",
+    "logo": "IBS_Software_Logo.svg",
+    "companylink": "www.ibs.com",
+    "designation": "Senior Software Engineer",
+    "employername": "IBS Software Services",
     "from": {
-      "year": "2015",
+      "year": "2006",
       "month": "10"
     },
     "to": {
-      "year": "2016",
+      "year": "2009",
       "month": "10"
     },
     "activities": [
       {
         "id": "1",
-        "activity": "release activities"
+        "activity": "fixed bugs"
       },
       {
         "id": "2",
-        "activity": "Thanksgiving promos"
+        "activity": "developed module"
       }
     ],
-    "skills": ["java", "jsp"]
+    "skills": ["java", "xml"]
   }
 ]

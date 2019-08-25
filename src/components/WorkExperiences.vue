@@ -1,27 +1,37 @@
 <template>
   <div>
+    <div class="row">
+      <div class="col">
+        <b-card title="Tito Cheriachan" sub-title="Bachelor of Computer Science and Engineering">
+          <b-card-text>
+            Specialized primarily in Java backend development, I am currently working as Senior Java Developer in Montreal, Canada.
+            Prior to this, I was working in American Express in Arizona, USA building microservices for AMEX card member's account summary page.
+            The account summary APIs receives an average of 4 million requests in any given day.
+            I have also worked in Connected Car IOT platform in which I programmed daemons which runs in the telematic unit of Chrysler cars.
+            The daemons reads CAN Bus data from the car and sends it to the cloud.
+          </b-card-text>
+          <b-card-text>Here are some of the technologies and skills that I work with:</b-card-text>
+        </b-card>
+      </div>
+    </div>
     <div class="row" v-for="experience in experiences" v-bind:key="experience.id">
       <div class="col">
         <div class="mt-2 mb-2">
           <b-card
             border-variant="primary"
-            img-top
             :title="experience.name"
-            :sub-title="experience.designation+` , `+experience.from.year+`/`+experience.from.month+` - `+experience.to.year+`/`+experience.to.month"
+            :sub-title="experience.designation+` ,
+            `+experience.from.year+`/`+experience.from.month+` - `
+            +experience.to.year+`/`+experience.to.month"
           >
             <b-card-text>
-              <b-img
-                left
-                rounded="circle"
-                src="https://picsum.photos/125/125/?image=58"
-                alt="Circle image"
-              />
-              ID: {{experience.id}}
-              Logo: {{experience.logo}}
+              <ul>
+                <div v-for="activity in experience.activities" v-bind:key="activity.id">
+                  <li>{{activity.activity}}</li>
+                </div>
+              </ul>
             </b-card-text>
-            <div v-for="activity in experience.activities" v-bind:key="activity.id">
-              <b-card-text>{{activity.id}},{{activity.activity}}</b-card-text>
-            </div>
+
             <span v-for="skill in experience.skills" v-bind:key="skill">
               <b-badge class="mr-2" variant="success">{{skill}}</b-badge>
             </span>
