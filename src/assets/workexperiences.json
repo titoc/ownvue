@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "logo": "ibslogo.png",
+    "logo": "IBS_Software_Logo.svg",
     "companylink": "www.ibs.com",
     "designation": "SSE",
     "employername": "IBS",
@@ -25,6 +25,58 @@
     "companylink": "www.amex.com",
     "designation": "Engineer I",
     "employername": "American Express",
+    "from": {
+      "year": "2015",
+      "month": "10"
+    },
+    "to": {
+      "year": "2016",
+      "month": "10"
+    },
+    "activities": [
+      {
+        "id": "1",
+        "activity": "release activities"
+      },
+      {
+        "id": "2",
+        "activity": "Thanksgiving promos"
+      }
+    ],
+    "skills": ["java", "jsp"]
+  },
+  {
+    "id": "3",
+    "logo": "ibslogo.png",
+    "companylink": "www.xm.com",
+    "designation": "Engineer I",
+    "employername": "XM Software",
+    "from": {
+      "year": "2015",
+      "month": "10"
+    },
+    "to": {
+      "year": "2016",
+      "month": "10"
+    },
+    "activities": [
+      {
+        "id": "1",
+        "activity": "release activities"
+      },
+      {
+        "id": "2",
+        "activity": "Thanksgiving promos"
+      }
+    ],
+    "skills": ["java", "jsp"]
+  },
+  {
+    "id": "4",
+    "logo": "ibslogo.png",
+    "companylink": "www.xm.com",
+    "designation": "ASE",
+    "employername": "TCS",
     "from": {
       "year": "2015",
       "month": "10"
