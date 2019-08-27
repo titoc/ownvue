@@ -1,19 +1,19 @@
 <template>
-  <div class="home">
-    <HelloWorld msg="Updated message with no issues HMR" />
+  <div class="row">
+    <div class="col">
+      <WorkExperiences />
+    </div>
   </div>
 </template>
 
 <script lang="ts">
-
 import { Component, Vue } from "vue-property-decorator";
-
-import HelloWorld from "@/components/HelloWorld.vue"; // @ is an alias to /src
+import WorkExperiences from "@/components/WorkExperiences.vue"; // @ is an alias to /src
 
 @Component({
   components: {
-    HelloWorld
+    WorkExperiences
   }
 })
-export default class Home extends Vue { }
+export default class Home extends Vue {}
 </script>
