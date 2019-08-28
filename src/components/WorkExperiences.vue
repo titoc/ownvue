@@ -4,13 +4,28 @@
       <div class="col">
         <b-card title="Tito Cheriachan" sub-title="Bachelor of Computer Science and Engineering">
           <b-card-text>
-            Specialized primarily in Java backend development, I am currently working as Senior Java Developer in Montreal, Canada.
-            Prior to this, I was working in American Express in Arizona, USA building microservices for AMEX card member's account summary page.
-            The account summary APIs receives an average of 4 million requests in any given day.
-            I have also worked in Connected Car IOT platform in which I programmed daemons which runs in the telematic unit of Chrysler cars.
-            The daemons reads CAN Bus data from the car and sends it to the cloud.
+            Specialized primarily in Java backend development with various libraries & frameworks including Spring, I am currently working as Senior Java Developer in Montreal, Canada.
+            Prior to this, I was working at American Express in Arizona, building microservices for AMEX card member's account summary page.
+            I have also worked in Connected Car IOT platform called 'Sprint Velocity' in which I wrote daemon apps which runs in the telematic unit of Chrysler cars.
+            The daemons reads CAN Bus data from the car and sends it to the cloud. Lately, I am building UI with VueJS. This site is made with VueJS and Typescript.
+            You can find the source code of this site here and you are free to use it.
           </b-card-text>
-          <b-card-text>Here are some of the technologies and skills that I work with:</b-card-text>
+          <a href="https://github.com/titoc" class="card-link darklink" target="_self">
+            <i class="fa fa-github" style="font-size:36px"></i>
+            GitHub
+          </a>
+          <a
+            href="https://stackoverflow.com/users/441902/cherit"
+            class="card-link darklink"
+            target="_self"
+          >
+            <i class="fa fa-stack-overflow" style="font-size:36px"></i>
+            StackOverFlow
+          </a>
+          <a href="https://www.linkedin.com/in/chetio" class="card-link darklink" target="_self">
+            <i class="fa fa-linkedin-square" style="font-size:36px"></i>
+            LinkedIn
+          </a>
         </b-card>
       </div>
     </div>
@@ -21,8 +36,8 @@
             border-variant="primary"
             :title="experience.name"
             :sub-title="experience.designation+` ,
-            `+experience.from.year+`/`+experience.from.month+` - `
-            +experience.to.year+`/`+experience.to.month"
+            `+experience.from.year+` `+experience.from.month+` - `
+            +experience.to.year+` `+experience.to.month"
           >
             <b-card-text>
               <ul>
@@ -64,5 +79,9 @@ export default class WorkExperiences extends Vue {
 }
 </script>
 
-<style>
+<style scoped>
+.darklink {
+  color: #000 !important;
+}
 </style>
+

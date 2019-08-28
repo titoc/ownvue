@@ -2,16 +2,16 @@
   {
     "id": "1",
     "logo": "IBS_Software_Logo.svg",
-    "companylink": "www.3ce.com",
+    "companylink": "https://www.3ce.com",
     "designation": "Senior Java Developer",
     "employername": "3CE Technologies Inc.",
     "from": {
-      "year": "2006",
-      "month": "10"
+      "year": "2016",
+      "month": "November"
     },
     "to": {
-      "year": "2009",
-      "month": "10"
+      "year": "Present",
+      "month": ""
     },
     "activities": [
       {
@@ -36,11 +36,11 @@
       },
       {
         "id": "2",
-        "activity": " Build internal tools with Vue.Js"
+        "activity": "Build internal tools with Vue.Js"
       },
       {
-        "id": "4",
-        "activity": "Standardized the structure of all systems – about thirty – to enforce best practices and industry standards (Maven 3, Nexus, Jenkins, releases vs snapshots...)"
+        "id": "2",
+        "activity": "Responsible for docker containers, versioning and production deployments."
       }
     ],
     "skills": [
@@ -60,158 +60,174 @@
   {
     "id": "2",
     "logo": "logo.png",
-    "companylink": "www.amex.com",
+    "companylink": "https://www.americanexpress.com",
     "designation": "Engineer I",
     "employername": "American Express",
     "from": {
       "year": "2015",
-      "month": "10"
+      "month": "January"
     },
     "to": {
       "year": "2016",
-      "month": "10"
+      "month": "November"
     },
     "activities": [
       {
         "id": "1",
-        "activity": "release activities"
+        "activity": "Built FICO credit score API for AMEX's US card members."
       },
       {
         "id": "2",
-        "activity": "Thanksgiving promos"
+        "activity": "Built Thanksgiving offers API (2016 season) for US card member’s Account Summary page."
+      },
+      {
+        "id": "2",
+        "activity": "Made day to day changes according to user stories on AMEX card member’s Account Summary page."
+      },
+      {
+        "id": "1",
+        "activity": "Run performance tests with Jmeter."
+      },
+      {
+        "id": "1",
+        "activity": "Code release activities."
       }
     ],
-    "skills": ["java", "jsp"]
+    "skills": ["Spring MVC", "Jmeter", "SOAP", "Maven"]
   },
 
   {
     "id": "4",
     "logo": "logo.png",
-    "companylink": "www.xm.com",
-    "designation": "Consultant",
+    "companylink": "https://www.youtube.com/watch?v=V1ooTX4aTE8",
+    "designation": "Consultant (Tata Consultancy Services)",
     "employername": "Sprint",
     "from": {
-      "year": "2015",
-      "month": "10"
+      "year": "2012",
+      "month": "January"
     },
     "to": {
-      "year": "2016",
-      "month": "10"
+      "year": "2015",
+      "month": "January"
     },
     "activities": [
       {
         "id": "1",
-        "activity": "release activities"
+        "activity": "Team member of Sprint & Fiat Chrysler Connected Vehicle IoT Platform called Sprint Velocity."
       },
       {
         "id": "2",
-        "activity": "Thanksgiving promos"
+        "activity": "Worked on embedded telematics daemon for remote car engine start, door unlock, GPS tracking of the vehicle."
+      },
+      {
+        "id": "2",
+        "activity": "Worked on a daemon which sends diagonostic trouble codes (DTC) to Chrysler's server by reading data from car's CAN Bus."
+      },
+      {
+        "id": "2",
+        "activity": "Lead the development for Yelp Points of Interests interactive telematics app with Nuance voice recognition and Yelp’s API."
       }
     ],
-    "skills": ["java", "jsp"]
+    "skills": [
+      "Java",
+      "MultiThreading",
+      "IOT (MQTT)",
+      "Vehicle CAN BUS OBD",
+      "DTC Codes"
+    ]
   },
   {
     "id": "3",
     "logo": "logo.png",
-    "companylink": "www.xm.com",
-    "designation": "Assistant Consultant",
-    "employername": "Tata Consultancy Services",
+    "companylink": "https://luluexchange.com",
+    "designation": "Software Developer",
+    "employername": "Lulu Money Exchange",
     "from": {
-      "year": "2015",
-      "month": "10"
+      "year": "2010",
+      "month": "May"
     },
     "to": {
-      "year": "2016",
-      "month": "10"
+      "year": "2011",
+      "month": "July"
     },
     "activities": [
       {
         "id": "1",
-        "activity": "release activities"
+        "activity": "Develop money transfer web application from scratch"
       },
       {
         "id": "2",
-        "activity": "Thanksgiving promos"
+        "activity": "Built an SMS alert service using SMPP and an SMS gateway"
+      },
+      {
+        "id": "2",
+        "activity": "Built an internal search application with Lucene under the hoods"
+      },
+      {
+        "id": "2",
+        "activity": "Wrote Sybase procedures for the money transfer application"
       }
     ],
-    "skills": ["java", "jsp"]
+    "skills": ["Struts", "Jsp", "Sybase T-SQL", "Lucene"]
   },
   {
     "id": "3",
     "logo": "logo.png",
-    "companylink": "www.xm.com",
-    "designation": "Assistant Consultant",
-    "employername": "Pearl Data Direct",
-    "from": {
-      "year": "2015",
-      "month": "10"
-    },
-    "to": {
-      "year": "2016",
-      "month": "10"
-    },
-    "activities": [
-      {
-        "id": "1",
-        "activity": "release activities"
-      },
-      {
-        "id": "2",
-        "activity": "Thanksgiving promos"
-      }
-    ],
-    "skills": ["java", "jsp"]
-  },
-  {
-    "id": "3",
-    "logo": "logo.png",
-    "companylink": "www.xm.com",
+    "companylink": "http://www.xmsoftware.co.in",
     "designation": "Software Engineer",
-    "employername": "XM Software",
+    "employername": "XM Software Solutions",
     "from": {
-      "year": "2015",
-      "month": "10"
+      "year": "2009",
+      "month": "April"
     },
     "to": {
-      "year": "2016",
-      "month": "10"
+      "year": "2010",
+      "month": "March"
     },
     "activities": [
       {
         "id": "1",
-        "activity": "release activities"
+        "activity": "Wrote a browser compatible (IE, FireFox) Javascript for generation Certificate Signing Request."
       },
       {
         "id": "2",
-        "activity": "Thanksgiving promos"
+        "activity": "Wrote various PL/SQL procedures for money transactions."
+      },
+      {
+        "id": "2",
+        "activity": "Made a J2ME mobile app for checking money transaction status (MIDP profile)"
       }
     ],
-    "skills": ["java", "jsp"]
+    "skills": ["Java", "J2ME", "OpenSSL", "PL/SQL", "iBatis", "Struts"]
   },
   {
     "id": "1",
     "logo": "IBS_Software_Logo.svg",
-    "companylink": "www.ibs.com",
+    "companylink": "https://www.ibsplc.com",
     "designation": "Senior Software Engineer",
     "employername": "IBS Software Services",
     "from": {
       "year": "2006",
-      "month": "10"
+      "month": "August"
     },
     "to": {
       "year": "2009",
-      "month": "10"
+      "month": "March"
     },
     "activities": [
       {
         "id": "1",
-        "activity": "fixed bugs"
+        "activity": "Involved Airline Cargo Logistics web application development"
       },
       {
         "id": "2",
-        "activity": "developed module"
+        "activity": "Wrote business logic for Cargo Revenue Accounting"
+      },
+      {
+        "id": "2",
+        "activity": "Wrote webservices consumer to consume IATA cargo tracing messages"
       }
     ],
-    "skills": ["java", "xml"]
+    "skills": ["Struts", "XML", "JSP", "Hibernate", "JavaScript", "HTML"]
   }
 ]
