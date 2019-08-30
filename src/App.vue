@@ -2,7 +2,7 @@
   <div id="app" class="container-fluid">
     <div class="row">
       <div class="col">
-        <b-navbar toggleable="lg" type="light" variant="success">
+        <b-navbar toggleable="lg" type="dark" :variant="dynamicTheme">
           <b-navbar-brand href="#">
             <b-img
               class="d-inline-block align-top"
@@ -33,8 +33,9 @@
 </template>
 <script>
 export default {
-  data() {
+  data: function () {
     return {
+      themes: ["primary", "success", "info", "warning", "danger", "dark"],
       mainProps: {
         blank: false,
         blankColor: "#777",
@@ -43,6 +44,11 @@ export default {
         class: "m1"
       }
     };
+  },
+  computed: {
+    dynamicTheme: function () {
+      return this.themes[Math.floor(Math.random() * this.themes.length)];
+    }
   }
 };
 </script>

@@ -8,23 +8,24 @@
             Prior to this, I was working at American Express in Arizona, building microservices for AMEX card member's account summary page.
             I have also worked in Connected Car IOT platform called 'Sprint Velocity' in which I wrote daemon apps which runs in the telematic unit of Chrysler cars.
             The daemons reads CAN Bus data from the car and sends it to the cloud. Lately, I am building UI with VueJS. This site is made with VueJS and Typescript.
-            You can find the source code of this site here and you are free to use it.
+            You can find the source code of this site
+            <a
+              target="_blank"
+              href=" https://github.com/titoc/ownvue"
+            >here</a> and you are free to use it.
           </b-card-text>
-          <a href="https://github.com/titoc" class="card-link darklink" target="_self">
-            <i class="fa fa-github" style="font-size:36px"></i>
-            GitHub
+          <a href="https://github.com/titoc" class="card-link darklink" target="_blank">
+            <i class="fa fa-github" style="font-size:25px"></i>
           </a>
           <a
             href="https://stackoverflow.com/users/441902/cherit"
             class="card-link darklink"
-            target="_self"
+            target="_blank"
           >
-            <i class="fa fa-stack-overflow" style="font-size:36px"></i>
-            StackOverFlow
+            <i class="fa fa-stack-overflow" style="font-size:25px"></i>
           </a>
-          <a href="https://www.linkedin.com/in/chetio" class="card-link darklink" target="_self">
-            <i class="fa fa-linkedin-square" style="font-size:36px"></i>
-            LinkedIn
+          <a href="https://www.linkedin.com/in/chetio" class="card-link darklink" target="_blank">
+            <i class="fa fa-linkedin-square" style="font-size:25px"></i>
           </a>
         </b-card>
       </div>
@@ -51,7 +52,11 @@
               <b-badge class="mr-2" variant="success">{{skill}}</b-badge>
             </span>
             <div>
-              <b-link :href="experience.companyLink" class="card-link">{{experience.companyLink}}</b-link>
+              <b-link
+                :href="experience.companyLink"
+                target="_blank"
+                class="card-link"
+              >{{experience.companyLink}}</b-link>
             </div>
           </b-card>
         </div>
@@ -71,10 +76,8 @@ export default class WorkExperiences extends Vue {
   service: EmployerService;
   constructor() {
     super();
-    console.log("Im init");
     this.service = new EmployerService();
     this.experiences = this.service.getWorkExperiences();
-    console.dir(this.service.getWorkExperiences()[0].designation);
   }
 }
 </script>
